@@ -63,7 +63,7 @@ jobs:
           Write-Host "🔐 SETTING PASSWORD" -ForegroundColor Yellow
 
           # Fixed password
-          $matKhau = "@certsteal2K6"
+          $matKhau = ".certsteal2K26"
           $securePass = ConvertTo-SecureString $matKhau -AsPlainText -Force
 
           # Delete old user if exists
